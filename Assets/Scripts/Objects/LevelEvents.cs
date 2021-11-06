@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using AbstractObjects;
 using UnityEngine;
 using UnityEngine.Events;
@@ -46,6 +48,8 @@ namespace Objects
         private void Start()
         {
             onStartGame?.Invoke();
+            
+            
         }
     }
 }
